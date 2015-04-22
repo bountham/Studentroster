@@ -5,9 +5,9 @@ var courseRoster = angular.module('courseRoster', ['ui.router']);
          url:"",
          templateUrl:"partials/home.html"
      });
-      $stateProvide.state('courses',{
+      $stateProvider.state('courses',{
           url:"courses",
-          templateUrl:"partials/courses.htm"
+          templateUrl:"partials/courses.html",
           controller: "CoursesCtrl"
       });
 

@@ -1,4 +1,4 @@
-coursesRoster.factory('CoursesFactory', function CoursesFactory(){
+courseRoster.factory('CoursesFactory', function CoursesFactory(){
     var factory = {};
     factory.courses = [];
     factory.addCourse = function(){
